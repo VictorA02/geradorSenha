@@ -5,8 +5,11 @@ Site criado com o intuito de gerar uma senha segura e rapidamente.
 ![](https://img.shields.io/badge/STATUS-FINISHED-red?style=for-the-badge&logo=appveyor)
 
 ## Linguagens
-Português Brasil (Principal). <br>
-Inglês (Variáveis).
+[Português Brasil](#Ptbr-version). <br>
+[English](#English-version).
+
+<a id="Ptbr-version"></a>
+## Versão Português
 
 <h1 align="center"> NewPass </h1>
 <p align="center"> Crie sua senha segura de uma forma rápida!</p>
@@ -66,15 +69,14 @@ O botão de gerar tem a função de gerar a senha de acordo com sua preferência
 1 - Baixe o repositório em sua máquina.<br>
 2 - Mova os arquivos para uma pasta.<br>
 3 - Abra o arquivo "index.html".<br>
-4 - Faça proveito do gerador.<br>
+4 - Faça proveito do gerador!<br>
 
 ## ⚙️ Funcionamento
 
-Após você seguir o passo a passo da instalação você verá a tela do gerador, basta inserir quantos caracteres você quer em sua senha e selecionar as opções que deseja em sua senha, se você deseja que ela tenha letra(s) minúscula(s), letra(s) maiúscula(s), número(s) e caracter(es) especial(is), será necessário que ao menos uma opção esteja assinalada, caso contrário será gerada uma senha vazia, após deixar a senha de acordo com sua preferência basta clicar no botão "gerar senha" e pronto, senha gerada.
+Após você seguir o passo a passo da instalação você verá a tela do gerador, você precisa definir o número de caracteres que você quer em sua senha e selecionar as opções você deseja, atualmente o gerador tem quatro opções, letra(s) minúscula(s), letra(s) maiúscula(s), número(s) e caracter(es) especial(is), é necessário que você assinale ao menos uma opção, caso contrário será gerada uma senha vazia, após deixar a senha de acordo com sua preferência basta clicar no botão "Gerar senha" e pronto, você tem uma senha forte e nova.
 
-## Languages
-Brazilian Portuguese (Main). <br>
-English (Variable).
+<a id="English-version"></a>
+## English Language
 
 <h1 align="center"> NewPass </h1>
 <p align="center"> Create your security password quickly!</p>
@@ -122,20 +124,20 @@ The generate button have the fuction of generate the password according to your 
 - [ ] Implement accessibility on the website through tags.
 
 ## ✔️ Concluded - Version 1.0
-- [x] Implementar a função de definir o número de caracteres.
-- [x] Implementar a opção de inserir ao menos uma letra minúscula na senha.
-- [x] Implementar a opção de inserir ao menos uma letra maiúscula na senha.
-- [x] Implementar a opção de inserir ao menos um número na senha.
-- [x] Implementar a opção de inserir ao menos um caractere especial na senha.
-- [x] Implementar a função de geração de senha.
+- [x] Implement function that set the characters number.
+- [x] Implement option to insert at least one lowercase letter in password.
+- [x] Implement option to insert at least one uppercase letter in password.
+- [x] Implement option to insert at least one number in password.
+- [x] Implement option to insert at least one special character in password.
+- [x] Implement fuction that generate the password.
 
 ## 💻 Installing
 
-1 - Baixe o repositório em sua máquina.<br>
-2 - Mova os arquivos para uma pasta.<br>
-3 - Abra o arquivo "index.html".<br>
-4 - Faça proveito do gerador.<br>
+1 - Download the repository in your machine.<br>
+2 - Move the files to an folder.<br>
+3 - Open the "index.html" file.<br>
+4 - Enjoy!
 
 ## ⚙️ Running
 
-Após você seguir o passo a passo da instalação você verá a tela do gerador, basta inserir quantos caracteres você quer em sua senha e selecionar as opções que deseja em sua senha, se você deseja que ela tenha letra(s) minúscula(s), letra(s) maiúscula(s), número(s) e caracter(es) especial(is), será necessário que ao menos uma opção esteja assinalada, caso contrário será gerada uma senha vazia, após deixar a senha de acordo com sua preferência basta clicar no botão "gerar senha" e pronto, senha gerada.
+After you follow step to step of the instalation you will see the generator screen, you just need set the characters number that you want in your password and check the options that you want, actually the generator have four options, lowercase letters, uppercase letters, numbers and special characters, is necessary that you check at least one option, otherwise will be generate a void password, after you set the preferences of your password you just need click on the generate button "Gerar senha" and ready, you have an new and strong password.
