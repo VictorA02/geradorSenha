@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewPass - Seu gerador de senha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="/password_icon.jpg">
+    <script src="script.js" defer></script>
+</head>
+<header>
+    <div class="header">
+        <h1>
+            <span class="initial-sentence">Seja bem vindo ao</span> <span class="newpass">NewPass</span>
+        </h1>
+        <h2 class="second-sentence">
+            Gere senhas seguras!
+        </h2>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <div class="container_head">
+            <div class="password">
+                <span id="password" class="password">
+                    senhaGerada
+                </span>
+            </div>
+            <br>
+            <button id="copy" class="button-copy-pw">
+                Copiar
+            </button>
+            <br>
+        </div>
+        <div class="container_body">
+            <h3>
+                Personalize sua senha
+            </h3>
+
+            <div class="form-control">
+                <input type="number" id="len" value="4" min="4" max="22">
+                <label for="len">
+                    Quantidade de caractéres
+                </label>
+            </div>
+
+            <div class="form-control">
+                <input type="checkbox" id="lower">
+                <label for="lower">
+                    Utilizar letras minúsculas
+                </label>
+            </div>
+
+            <div class="form-control">
+                <input type="checkbox" id="upper">
+                <label for="upper">
+                    Utilizar letras maiúsculas
+                </label>
+            </div>
+
+            <div class="form-control">
+                <input type="checkbox" id="number">
+                <label for="number">
+                    Utilizar números
+                </label>
+            </div>
+
+            <div class="form-control">
+                <input type="checkbox" id="symbol">
+                <label for="symbol">
+                    Utilizar caractéres especiais
+                </label>
+            </div>
+        </div>
+        <div class="container_footer">
+            <button id="generate" class="button-generate-pw">
+                Gerar senha
+            </button>
+        </div>
+    </div>
+    <div class="copyright_div">
+        <p class="copyright_p">
+            Developed by Victor Araujo 2020
+        </p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --cor-preto: rgb(12, 12, 12);
+    --cor-branco: #FFFFFF;
+    --cor-verde: rgb(22, 198, 12);
+    --font: 'Montserrat', Helvetica;
+}
+
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+.password span {
+    color: var(--cor-branco);
+    border-bottom: 0px;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+body {
+    background: url(/wallpaper.gif);
+    background-size: cover;
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    font-family: var(--font);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    letter-spacing: 2px;
+    color: var(--cor-branco);
+}
+
+.initial-sentence {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--cor-branco);
+    padding-bottom: 1%;
+}
+
+.newpass {
+    font-size: 2.5rem;
+    padding-bottom: 1%;
+    font-weight: 900;
+    color: var(--cor-verde);
+}
+
+.second-sentence {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 2vh;
+}
+
+.container {
+    border: 2px solid var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0vh 5vh;
+    height: 70vh;
+}
+
+.container_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    max-width: 15rem;
+    height: 2rem;
+    padding: 0vw 1vw;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.container_body {
+    line-height: 1.7rem;
+}
+
+#len {
+    width: 45px;
+    height: 25px;
+    font-size: 1rem;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.button-copy-pw, .button-generate-pw {
+    display: inline-block;
+    cursor: pointer;
+    background-color: var(--cor-branco);
+    border-radius: 10px;
+    border: 3px solid var(--cor-branco);
+    color: var(--cor-preto);
+    font-family: var(--font);
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding: 2% 4%;
+}
+
+.button-copy-pw:hover, .button-generate-pw:hover {
+    transition: 300ms;
+    opacity: 0.7;
+}
+
+.copyright_div {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 2vh;
+}
+
+@media (max-width: 650px) {
+    .initial-sentence {
+        display: none;
+    }
+
+    .newpass {
+        visibility:visible;
+    }
+}
