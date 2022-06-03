@@ -8,6 +8,10 @@ Site criado com o intuito de gerar uma senha segura e rapidamente.
 [Português Brasil](#Ptbr-version). <br>
 [English](#English-version).
 
+## Programa rodando // Program running
+[Clique aqui](#GeneratorRunning) <br>
+[Click here](#GeneratorRunning)
+
 <a id="Ptbr-version"></a>
 ## Versão Português
 
@@ -141,3 +145,6 @@ The generate button have the fuction of generate the password according to your 
 ## ⚙️ Running
 
 After you follow step to step of the instalation you will see the generator screen, you just need set the characters number that you want in your password and check the options that you want, actually the generator have four options, lowercase letters, uppercase letters, numbers and special characters, is necessary that you check at least one option, otherwise will be generate a void password, after you set the preferences of your password you just need click on the generate button "Gerar senha" and ready, you have an new and strong password.
+
+<a id="GeneratorRunning"></a>
+https://user-images.githubusercontent.com/88095898/171908144-be10cb6b-44e8-4761-82bd-e338f22afd63.mp4
